@@ -50,7 +50,9 @@ public class Projeto25 {
             System.out.println("Erro inesperado! "+ e.getMessage());
         }
         finally {
+            if (input != null){
             input.close();
+        }
         }
 
 
